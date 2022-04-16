@@ -58,6 +58,7 @@ model = tf.keras.Sequential([model,  GlobalMaxPool2D()])
 model.summary()
 
 ![alt text](https://drive.google.com/file/d/1ufNTZ0ug2a6M3Zo16sAZLnlXtf7ERH9A/view?usp=sharing)
+<img src="https://drive.google.com/file/d/1ufNTZ0ug2a6M3Zo16sAZLnlXtf7ERH9A/view?usp=sharing" width="128"/>
 
 ## Result
 ![alt text](https://drive.google.com/file/d/1BcDSAW3sWzcH-PT7ELGA1qt2AGrZJHxW/view?usp=sharing)
