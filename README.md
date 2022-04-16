@@ -52,15 +52,16 @@ Highlights -
 - Firebase Storage
 
 ## Model
-model = ResNet50(weights='imagenet' , include_top=False, input_shape = (224,224,3))
-model.trainable = False
-model = tf.keras.Sequential([model,  GlobalMaxPool2D()])
-model.summary()
+model = ResNet50(weights='imagenet' , include_top=False, input_shape = (224,224,3)) <br>
+model.trainable = False<br>
+model = tf.keras.Sequential([model,  GlobalMaxPool2D()])<br>
+model.summary()<br>
 
-![alt text](https://drive.google.com/file/d/1ufNTZ0ug2a6M3Zo16sAZLnlXtf7ERH9A/view?usp=sharing)
+
 <img src="https://drive.google.com/file/d/1ufNTZ0ug2a6M3Zo16sAZLnlXtf7ERH9A/view?usp=sharing" width="128"/>
 
 ## Result
-![alt text](https://drive.google.com/file/d/1BcDSAW3sWzcH-PT7ELGA1qt2AGrZJHxW/view?usp=sharing)
-![alt text](https://drive.google.com/file/d/1mH8m7XvxN4x-H-qE3sBHgu5NhKls26KN/view?usp=sharing)
+<img src="https://drive.google.com/file/d/1BcDSAW3sWzcH-PT7ELGA1qt2AGrZJHxW/view?usp=sharing" width="128"/>
+<img src="https://drive.google.com/file/d/1mH8m7XvxN4x-H-qE3sBHgu5NhKls26KN/view?usp=sharing" width="128"/>
+
 
